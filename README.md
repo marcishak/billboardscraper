@@ -1,6 +1,6 @@
 # Bilboard Scraper
 
-Scrapes Billboard
+Scrapes Billboard -> can export to csv or Json :)
 
 ## Usage
 
