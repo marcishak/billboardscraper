@@ -6,8 +6,10 @@ Originally written in Perl as an application of what was learnt after comp2041
 
 * now used as toy data source for R stuff
 * won't really be updated, plan to rewrite into R to develop into package
+* needs wget
 * The error messages really suck. Sorry about that.
 * Also the relationship structure between programs also sucks. It's way too varied with some needing pipes and others calling the other program directly...
+* The variable names also super suck. This really isn't ~~great good~~ passable code...
 
 ## Usage
 
@@ -15,7 +17,7 @@ Originally written in Perl as an application of what was learnt after comp2041
 * This gets the chart for the date provided 
 * Dates must be in YYYY-MM-DD format
 * By default it just outputs json to stdout but with a -c or -j flag (after the date) it can output into csv or json respectively.
-* Bug: occasionally will fail to scrape the website correctly. Re-running the script fixes the problem ¯\\\_(ツ)_/¯ 
+* Bug: occasionally will fail to scrape the website correctly. Re-running the script fixes the problem (most of the time) ¯\\\_(ツ)_/¯ 
 
 ## scrapeYear.pl
 * This scrapes an entire given year of the billboard chart and out puts it to data/ 

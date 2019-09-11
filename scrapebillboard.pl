@@ -57,7 +57,7 @@ while ($line = <F>) {
 if(@list != 100){
     print $url;
     print @list;
-    print $blah;
+    # print $blah;
     die "scrape went wrong\n";
 }
 if(@ARGV == 2){
