@@ -6,7 +6,7 @@ Originally written in Perl as an application of what was learnt after comp2041
 
 * now used as toy data source for R stuff
 * won't really be updated, plan to rewrite into R to develop into package
-* needs wget
+* needs wget (already installed on linux, install from homebrew on mac)
 * The error messages really suck. Sorry about that.
 * Also the relationship structure between programs also sucks. It's way too varied with some needing pipes and others calling the other program directly...
 * The variable names also super suck. This really isn't ~~great good~~ passable code...
