@@ -1,5 +1,10 @@
 # Bootleg Billboard Scraper
 
+
+
+# IMPORTANT: 11/12/2019 - Billboard has rewritten how it displays the HOT 100 CHART on it's website. Breaking this program completely. Development on the R package has started and will be available SOON™ 
+
+
 Scrapes Billboard -> can export to csv or Json :)
 
 Originally written in Perl as an application of what was learnt after comp2041 
